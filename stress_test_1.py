@@ -25,8 +25,8 @@ class VLLMTimeSliceStressTester:
         # Load environment variables for vLLM endpoints
         self.benchmark_url = os.getenv('BENCHMARK_URL', '')
         self.timesliced_url = os.getenv('TIMESLICED_URL', '') 
-        self.benchmark_model = os.getenv('BENCHMARK_MODEL', 'Qwen/Qwen3-4B')
-        self.timesliced_model = os.getenv('TIMESLICED_MODEL', 'Qwen/Qwen3-4B')
+        self.benchmark_model = os.getenv('BENCHMARK_MODEL', '')
+        self.timesliced_model = os.getenv('TIMESLICED_MODEL', '')
         self.benchmark_api_key = os.getenv('BENCHMARK_API_KEY', '')
         self.timesliced_api_key = os.getenv('TIMESLICED_API_KEY', '')
         
