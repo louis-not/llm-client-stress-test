@@ -60,7 +60,7 @@ class VLLMTimeSliceStressTester:
         # Test configuration
         self.concurrency_levels = [1, 2, 5, 10, 20, 50]
         self.requests_per_level = 100
-        self.warmup_requests = 10
+        self.warmup_requests = 100
         self.timeout_seconds = 60
         
         # Dataset configuration
